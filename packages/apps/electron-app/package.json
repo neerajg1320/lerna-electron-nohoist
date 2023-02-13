@@ -1,0 +1,22 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder -m",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.0.0",
+    "electron-builder": "^23.6.0"
+  },
+  "workspaces": {
+    "nohoist": ["electron", "electron-builder"]
+  }
+}
